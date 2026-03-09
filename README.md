@@ -43,7 +43,7 @@ User Query
     ▼
 ┌─────────────────────────────────────────┐
 │          Generation (Groq API)          │
-│       llama-3.3-70b-versatile           │
+│       llama-3.3-70b-versatile or openai-120b          │
 │  Structured: Summary + Evidence +       │
 │              Clinical Context           │
 └─────────────────────────────────────────┘
