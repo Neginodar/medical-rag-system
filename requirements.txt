@@ -1,0 +1,33 @@
+# Core ML
+sentence-transformers==3.4.1
+torch==2.6.0
+faiss-cpu==1.10.0
+numpy==2.0.2
+
+# Vector Databases
+pinecone==6.0.0
+chromadb==0.6.3
+
+# LLM & Generation
+groq==0.23.1
+
+# RAG & LangChain
+langchain==0.3.21
+langchain-community==0.3.20
+langchain-groq==0.3.2
+ragas==0.2.14
+datasets==3.4.0
+
+# API
+fastapi==0.115.12
+uvicorn==0.34.0
+pydantic==2.11.1
+nest-asyncio==1.6.0
+pyngrok==7.2.3
+
+# UI
+gradio==5.23.3
+
+# Utilities
+requests==2.32.5
+python-dotenv==1.1.0
