@@ -12,7 +12,7 @@ A production-ready **Retrieval-Augmented Generation (RAG)** pipeline for medical
 | **Embeddings** | `BAAI/bge-base-en-v1.5` via `sentence-transformers` |
 | **Vector Stores** | Pinecone (cloud), FAISS (local), ChromaDB (local) |
 | **Re-ranking** | `cross-encoder/ms-marco-MiniLM-L-6-v2` |
-| **LLM** | Groq API — `llama-3.3-70b-versatile` |
+| **LLM** | Groq API — `llama-3.3-70b-versatile, openai-120b ` |
 | **Evaluation** | Custom embedding-based metrics (Answer Relevancy, Context Coverage, Ground Truth Similarity) |
 | **API** | FastAPI with `/ask` and `/compare` endpoints |
 | **UI** | Gradio interface with retriever selector and re-ranking toggle |
